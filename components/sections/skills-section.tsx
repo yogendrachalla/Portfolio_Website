@@ -13,20 +13,20 @@ interface Skill {
 
 const skillsData: Skill[] = [
   // Frontend
-  { name: 'Next.js', proficiency: 60, image: '/images/skills/nextjs.png', category: 'Frontend' },
-  { name: 'HTML/CSS', proficiency: 98, image: '/images/skills/html-css.png', category: 'Frontend' },
-  { name: 'JavaScript', proficiency: 40, image: '/images/skills/javascript.png', category: 'Frontend' },
+  { name: 'Next.js', proficiency: 60, image: '/Nextjs.jpeg', category: 'Frontend' },
+  { name: 'HTML/CSS', proficiency: 98, image: '/html.png', category: 'Frontend' },
+  { name: 'JavaScript', proficiency: 40, image: '/JavaScript.jpg', category: 'Frontend' },
   
   // Backend
-  { name: 'Java', proficiency: 70, image: '/images/skills/nodejs.png', category: 'Backend' },
-  { name: 'Python', proficiency: 80, image: '/images/skills/python.png', category: 'Backend' },
-  { name: 'MySQL', proficiency: 89, image: '/images/skills/mongodb.png', category: 'Backend' },
+  { name: 'Java', proficiency: 70, image: '/Java.png', category: 'Backend' },
+  { name: 'Python', proficiency: 80, image: '/Python.jpeg', category: 'Backend' },
+  { name: 'MySQL', proficiency: 89, image: '/MySQL.jpeg', category: 'Backend' },
 
   // DevOps & Tools
-  { name: 'Power BI', proficiency: 40, image: '/images/skills/git.png', category: 'DevOps & Tools' },
+  { name: 'Power BI', proficiency: 40, image: '/PowerBI.jpeg', category: 'DevOps & Tools' },
   
   // Mobile & Others
-  { name: 'Figma', proficiency: 30, image: '/images/skills/figma.png', category: 'Mobile & Others' },
+  { name: 'Figma', proficiency: 30, image: '/Figma.png', category: 'Mobile & Others' },
 ];
 
 const categories = ['All', 'Frontend', 'Backend', 'DevOps & Tools', 'Mobile & Others'];

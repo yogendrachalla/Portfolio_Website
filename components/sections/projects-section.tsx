@@ -23,7 +23,7 @@ const projectsData = [
     title: 'Recipe Finder',
     description: 'Recipe Finder is a web app built with HTML, CSS, Javascript and TheMealDB API that lets users search and explore recipes based on a chosen ingredient.',
     shortDescription: 'Recipe Finder is a web app built with HTML, CSS, and JavaScript that lets users search and explore recipes based on a chosen ingredient.',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop',
+    image: '/Gemini_Generated_Image_bpwvi9bpwvi9bpwv.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'TheMealDB API'],
     category: 'Full-Stack',
     githubUrl: 'https://github.com/yogendrachalla/Find_Meal_for_Your_Ingredients',
@@ -46,9 +46,9 @@ const projectsData = [
   {
     id: 2,
     title: 'Supply Chain Management using Blockchain',
-    description: 'A collaborative task management application with real-time updates, team collaboration, project tracking, and advanced reporting features. Built with modern web technologies for optimal performance.',
-    shortDescription: 'Collaborative task management with real-time updates',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
+    description: 'A blockchain-based supply chain tracking system that ensures transparent, tamper-proof, and real-time traceability of products from origin to destination.',
+    shortDescription: 'Blockchain-based supply chain tracking system',
+    image: '/Gemini_Generated_Image_ww3159ww3159ww31.png',
     technologies: ['Node.js', 'Web3.js', 'SQL', 'Solidity', 'Ethereum'],
     category: 'Backend-Heavy',
     githubUrl: 'https://github.com/yogendrachalla/Supply_Chain_Management_using_Blockchain',
@@ -62,10 +62,10 @@ const projectsData = [
       'Decentralized Data Storage'
     ],
     stats: {
-      stars: 32,
-      forks: 8,
-      contributors: 2,
-      lastUpdated: '2024-01-10'
+      stars: 1,
+      forks: 1,
+      contributors: 3,
+      lastUpdated: '20-05-2024'
     }
   },
   {
@@ -74,98 +74,98 @@ const projectsData = [
     description: 'A modern, responsive portfolio website built with Next.js, TailwindCSS, and Framer Motion. Features smooth animations, dark/light mode, and optimized performance.',
     shortDescription: 'Modern portfolio with smooth animations and responsive design',
     image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop',
-    technologies: ['Next.js', 'TypeScript', 'TailwindCSS', 'Framer Motion', 'Vercel'],
+    technologies: ['Next.js', 'React', 'TailwindCSS', 'Framer Motion'],
     category: 'Frontend',
-    githubUrl: 'https://github.com/yourusername/portfolio',
-    liveUrl: 'https://yourportfolio.com',
+    githubUrl: 'https://github.com/yogendrachalla/Portfolio_Website',
+    liveUrl: 'https://challa-yogendra-portfolio.vercel.app/',
     features: [
-      'Responsive design',
+      'Responsive UI',
       'Dark/light mode toggle',
       'Smooth animations',
-      'SEO optimized',
-      'Performance optimized',
-      'Accessibility features'
+      'Skills grid with Progress Bars',
+      'Interactive Projects Showcase',
+      'Contact + Resume Download'
     ],
     stats: {
-      stars: 28,
-      forks: 15,
+      stars: 2,
+      forks: 0,
       contributors: 1,
-      lastUpdated: '2024-01-20'
+      lastUpdated: '10-01-2025'
     }
   },
   {
     id: 4,
-    title: 'AI Chat Application',
-    description: 'An intelligent chat application powered by OpenAI GPT models. Features include conversation history, multiple AI personalities, file uploads, and real-time responses.',
-    shortDescription: 'AI-powered chat app with OpenAI integration',
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
-    technologies: ['React', 'Python', 'OpenAI API', 'FastAPI', 'PostgreSQL', 'Docker'],
+    title: 'MindVault AI',
+    description: 'MindVault AI is an intelligent note-taking and knowledge management platform that lets users upload sources, chat with AI, and generate study guides, FAQs, and timelines for deeper learning.',
+    shortDescription: 'AI-powered note-taking and knowledge management platform',
+    image: '/Gemini_Generated_Image_98snmi98snmi98sn.png',
+    technologies: ['React', 'Node.js', 'OpenAI API', 'LangChain', 'PostgreSQL', 'Clerk'],
     category: 'AI/ML',
     githubUrl: 'https://github.com/yourusername/ai-chat',
     liveUrl: 'https://aichat-demo.com',
     features: [
-      'Multiple AI personalities',
+      'AI-Powered Chat',
       'Conversation history',
       'File upload & processing',
-      'Real-time responses',
+      'User-Friendly Dashboard',
       'User authentication',
-      'Usage analytics'
+      'Notebook Management'
     ],
     stats: {
-      stars: 67,
-      forks: 23,
-      contributors: 4,
-      lastUpdated: '2024-01-18'
+      stars: 2,
+      forks: 2,
+      contributors: 3,
+      lastUpdated: '10-06-2025'
     }
   },
   {
     id: 5,
-    title: 'Weather Dashboard',
-    description: 'A comprehensive weather dashboard with real-time data, forecasts, interactive maps, and customizable widgets. Integrates with multiple weather APIs for accurate information.',
-    shortDescription: 'Interactive weather dashboard with real-time data',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=600&fit=crop',
-    technologies: ['React', 'TypeScript', 'OpenWeather API', 'Chart.js', 'Mapbox', 'PWA'],
-    category: 'Frontend',
-    githubUrl: 'https://github.com/yourusername/weather-dashboard',
-    liveUrl: 'https://weather-demo.com',
+    title: 'Inventory Management System',
+    description: 'An Inventory Management System is a database management project that helps track and manage an organization\'s inventory, ensuring accurate stock levels and efficient operations.',
+    shortDescription: 'Inventory Management System with real-time data',
+    image: '/Gemini_Generated_Image_l6ekm8l6ekm8l6ek.png',
+    technologies: ['React', 'Python', 'MySQL', 'HTML'],
+    category: 'Database',
+    githubUrl: 'https://github.com/yogendrachalla/Inventory_Management_System',
+    liveUrl: 'https://inventory-management-system.com',
     features: [
-      'Real-time weather data',
-      '7-day forecasts',
-      'Interactive maps',
-      'Customizable widgets',
-      'PWA capabilities',
-      'Multiple locations'
+      'Real-time stock visibility',
+      'Reporting and Alerts',
+      'User-Friendly Dashboard',
+      'Demand Forecasting',
+      'Performance Analytics',
+      'Automated Replenishment'
     ],
     stats: {
-      stars: 19,
-      forks: 6,
-      contributors: 2,
-      lastUpdated: '2024-01-12'
+      stars: 1,
+      forks: 0,
+      contributors: 1,
+      lastUpdated: '20-07-2024'
     }
   },
   {
     id: 6,
-    title: 'Recipe Management System',
-    description: 'A comprehensive recipe management system with ingredient tracking, meal planning, nutritional information, and social sharing features. Perfect for food enthusiasts and meal prep.',
-    shortDescription: 'Recipe management with meal planning and nutrition tracking',
-    image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&h=600&fit=crop',
-    technologies: ['React Native', 'Node.js', 'MongoDB', 'AWS S3', 'JWT', 'Redux'],
-    category: 'Mobile',
-    githubUrl: 'https://github.com/yourusername/recipe-manager',
-    liveUrl: 'https://recipe-demo.com',
+    title: 'DecoyVerse',
+    description: 'DecoyVerse is a "HoneyToken as a Service" project that provides a scalable and automated platform for generating and deploying deceptive digital assets to detect and track unauthorized access and insider threats.',
+    shortDescription: 'DecoyVerse is a "HoneyToken as a Service" project that provides a scalable and automated platform for generating and deploying deceptive digital assets to detect and track unauthorized access and insider threats.',
+    image: '/Gemini_Generated_Image_8yo95r8yo95r8yo9.png',
+    technologies: ['React', 'Node.js', 'Python', 'AWS S3', 'JWT', 'Redux'],
+    category: 'Security',
+    githubUrl: 'https://github.com/yogendrachalla/DecoyVerse',
+    liveUrl: 'https://decoyverse.com',
     features: [
-      'Recipe creation & editing',
-      'Ingredient management',
-      'Meal planning calendar',
-      'Nutritional information',
-      'Social sharing',
-      'Offline support'
+      'HoneyToken Generation',
+      'Automated Deployment and Integration ',
+      'Real-time Alerts',
+      'Transaction Logs',
+      'Multi-Platform Supported',
+      'Intelligent Dashboard'
     ],
     stats: {
-      stars: 41,
-      forks: 18,
-      contributors: 3,
-      lastUpdated: '2024-01-16'
+      stars: 0,
+      forks: 0,
+      contributors: 4,
+      lastUpdated: '03-09-2025'
     }
   }
 ]
@@ -176,7 +176,7 @@ export function ProjectsSection() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
-  const categories = ['All', 'Full-Stack', 'Frontend', 'Backend-Heavy', 'Mobile', 'AI/ML']
+  const categories = ['All', 'Full-Stack', 'Frontend', 'Backend-Heavy', 'Database', 'AI/ML','Security']
   const filteredProjects = filter === 'All' 
     ? projectsData 
     : projectsData.filter(project => project.category === filter)

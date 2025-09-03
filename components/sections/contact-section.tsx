@@ -85,7 +85,7 @@ export function ContactSection() {
 
   const socialLinks = [
     { name: 'GitHub', icon: Github, url: 'https://github.com/yogendrachalla', color: 'hover:text-gray-900 dark:hover:text-white' },
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/yogendrachalla', color: 'hover:text-blue-600' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/challayogendra/', color: 'hover:text-blue-600' },
     { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/yourusername', color: 'hover:text-blue-400' },
     { name: 'Website', icon: Globe, url: 'https://yourwebsite.com', color: 'hover:text-primary-600' }
   ]

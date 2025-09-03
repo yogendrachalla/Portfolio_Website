@@ -57,7 +57,7 @@ export function FooterSection() {
             className="md:col-span-2"
           >
             <h3 className="text-2xl font-bold text-primary-400 mb-4">
-              Your Name
+              Challa Yogendra
             </h3>
             <p className="text-gray-300 mb-6 max-w-md">
               Full-stack developer passionate about creating beautiful, functional, and user-centered digital experiences.
@@ -151,7 +151,7 @@ export function FooterSection() {
           {/* Copyright */}
           <div className="text-gray-400 text-sm">
             <p>
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Challa Yogendra. All rights reserved.
             </p>
             <p className="mt-1">
               Made with <Heart className="inline h-4 w-4 text-red-500" /> using Next.js & TailwindCSS

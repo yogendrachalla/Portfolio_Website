@@ -115,22 +115,10 @@ export function ResumeSection() {
               <div className="space-y-4">
                 {[
                   {
-                    title: 'Senior Full-Stack Developer',
-                    company: 'Tech Company Inc.',
-                    period: '2022 - Present',
-                    description: 'Leading development of enterprise web applications using React, Node.js, and cloud technologies.'
-                  },
-                  {
-                    title: 'Full-Stack Developer',
-                    company: 'Startup XYZ',
-                    period: '2020 - 2022',
+                    title: 'Full-Stack Developer Intern',
+                    company: 'Shadow Fox',
+                    period: '2025 - 2025',
                     description: 'Built scalable web applications and contributed to product development and team growth.'
-                  },
-                  {
-                    title: 'Frontend Developer',
-                    company: 'Digital Agency',
-                    period: '2019 - 2020',
-                    description: 'Developed responsive websites and web applications for various clients.'
                   }
                 ].map((job, index) => (
                   <motion.div
@@ -174,17 +162,40 @@ export function ResumeSection() {
               >
                 <div className="flex justify-between items-start mb-2">
                   <h5 className="font-semibold text-dark-800 dark:text-dark-200">
-                    Bachelor of Computer Science
+                    Bachelor of Computer Science and Engineering
                   </h5>
                   <span className="text-sm text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-900/20 px-2 py-1 rounded-full">
-                    2015 - 2019
+                    2022 - 2026
                   </span>
                 </div>
                 <p className="text-sm font-medium text-dark-600 dark:text-dark-400 mb-1">
-                  University of Technology
+                  Dayananda Sagar University
                 </p>
                 <p className="text-sm text-dark-500 dark:text-dark-500">
-                  Graduated with honors. Specialized in software engineering and web development.
+                  8.89 CGPA |
+                  Graduating this year. Specialized in software engineering and web development.
+                </p>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+                transition={{ delay: 0.6, duration: 0.5 }}
+                className="bg-white dark:bg-dark-700 rounded-xl p-4 border border-gray-200 dark:border-dark-600"
+              >
+                <div className="flex justify-between items-start mb-2">
+                  <h5 className="font-semibold text-dark-800 dark:text-dark-200">
+                    Intermediate
+                  </h5>
+                  <span className="text-sm text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-900/20 px-2 py-1 rounded-full">
+                    2020 - 2022
+                  </span>
+                </div>
+                <p className="text-sm font-medium text-dark-600 dark:text-dark-400 mb-1">
+                  Sri Nalanda Jr College
+                </p>
+                <p className="text-sm text-dark-500 dark:text-dark-500">
+                  8.95 CGPA |
+                  Graduated with honors.
                 </p>
               </motion.div>
             </div>
@@ -199,9 +210,8 @@ export function ResumeSection() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {[
                   'AWS Certified Developer',
-                  'Google Cloud Professional',
-                  'Microsoft Azure Developer',
-                  'Certified Scrum Master'
+                  'TechA Linux Programming',
+                  'Certified Full Stack Developer',
                 ].map((cert, index) => (
                   <motion.div
                     key={index}
@@ -236,15 +246,15 @@ export function ResumeSection() {
               {[
                 {
                   category: 'Frontend Development',
-                  skills: ['React', 'TypeScript', 'Next.js', 'TailwindCSS', 'Responsive Design']
+                  skills: ['React', 'Next.js', 'TailwindCSS']
                 },
                 {
                   category: 'Backend Development',
-                  skills: ['Node.js', 'Python', 'PostgreSQL', 'MongoDB', 'REST APIs']
+                  skills: ['Python', 'MySQL', 'REST APIs']
                 },
                 {
                   category: 'DevOps & Tools',
-                  skills: ['AWS', 'Docker', 'Git', 'CI/CD', 'Performance Optimization']
+                  skills: ['AWS', 'Power BI', 'Performance Optimization']
                 }
               ].map((category, index) => (
                 <motion.div
