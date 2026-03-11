@@ -7,6 +7,7 @@ import { Navigation } from '@/components/navigation'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://yourportfolio.com'),
   title: 'Your Name - Portfolio',
   description: 'Full-stack developer passionate about creating beautiful, functional, and user-centered digital experiences.',
   keywords: ['developer', 'portfolio', 'full-stack', 'web development', 'React', 'Next.js', 'TypeScript'],
